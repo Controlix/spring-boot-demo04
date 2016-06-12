@@ -1,0 +1,9 @@
+server:
+  port: 9999
+spring:
+  application:
+    name: nodeapplication
+
+sidecar:
+  port: 8000
+  health-uri: http://localhost:8000/health.json
